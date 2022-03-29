@@ -1,0 +1,28 @@
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(src/klara-kulikova-E589UjYDhd4-unsplash.jpg);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+span {
+  border: 2px solid black;
+  border-radius: 14px;
+  padding: 10px;
+  width: 40px;
+  text-align: center;
+}
+
+.active {
+  transform: scale(2);
+  background-color: green;
+  color: white;
+}
